@@ -18,3 +18,8 @@ So I made everything a but more structured so we know what is going on. All the 
 
 I also made a python file called app.py which holds simple logic. I already installed postgreql in wsl. So I think we are all set to make a small working webpage which accepts userdata, logs in, fetches the corret webpage and delivers it to the user. Let's see how that goes.
 
+
+installed flask and used flask to build a minimal backend logic. installed postgresql as well, connected postgresql and flask in app.py application.
+
+Now when user visits localhost and signs up by entering details those details are inserted into the database. Very basic but I had to get an idea on how everything comes together in an actual production environment.
+

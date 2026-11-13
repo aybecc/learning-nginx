@@ -36,13 +36,13 @@ document.addEventListener('DOMContentLoaded', () => {
       signinMessage.textContent = 'Please enter a valid email and password (min 6 chars).';
       signinMessage.className = 'message error';
     }
-  });
+  }); 
 
   // Sign Up form
   const signupForm = document.getElementById('signup-form');
   const signupMessage = document.getElementById('signup-message');
 
-  signupForm.addEventListener('submit', (e) => {
+  /*signupForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const name = document.getElementById('signup-name').value.trim();
     const email = document.getElementById('signup-email').value;
@@ -70,5 +70,5 @@ document.addEventListener('DOMContentLoaded', () => {
     signupMessage.textContent = `Account created for ${name}! (Demo only)`;
     signupMessage.className = 'message success';
     signupForm.reset();
-  });
+  });*/
 });
