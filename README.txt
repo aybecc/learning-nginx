@@ -13,3 +13,8 @@ I learned how to host static files in nginx. I have created a simple login page.
 We also learned how to configure file in sites-available and activate them by creating a symbolic link to sites-enabled.
 
 We have only created one static page, next step is to create more staticpages and lavigate them accordingly to grasp the full concept of nginx.
+
+So I made everything a but more structured so we know what is going on. All the static files into a folder called static and all the template files into a folder called template. 
+
+I also made a python file called app.py which holds simple logic. I already installed postgreql in wsl. So I think we are all set to make a small working webpage which accepts userdata, logs in, fetches the corret webpage and delivers it to the user. Let's see how that goes.
+
