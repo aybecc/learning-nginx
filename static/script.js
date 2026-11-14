@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const signinForm = document.getElementById('signin-form');
   const signinMessage = document.getElementById('signin-message');
 
-  signinForm.addEventListener('submit', (e) => {
+  /*signinForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const email = document.getElementById('signin-email').value;
     const password = document.getElementById('signin-password').value;
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       signinMessage.textContent = 'Please enter a valid email and password (min 6 chars).';
       signinMessage.className = 'message error';
     }
-  }); 
+  });*/
 
   // Sign Up form
   const signupForm = document.getElementById('signup-form');

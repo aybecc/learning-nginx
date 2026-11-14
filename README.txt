@@ -23,3 +23,9 @@ installed flask and used flask to build a minimal backend logic. installed postg
 
 Now when user visits localhost and signs up by entering details those details are inserted into the database. Very basic but I had to get an idea on how everything comes together in an actual production environment.
 
+
+Added a simple login logic. Now once the user's data is entered into the table user_details_ in database userinfo, the user can try to login to the website. Currently the there is no useful redirection if the login succeeds so the redirection is towards signup page. However the backend logic checks the password and confirms it. So it works.
+
+Next, need to look into loadbalancers or  maybe Docker.
+
+Peace

@@ -24,7 +24,7 @@
         </div>
 
         <!-- Sign In Form -->
-        <form id="signin-form" class="auth-form active">
+        <form action="{{url_for('validate_data_')}}" id="signin-form" class="auth-form active" method="post">
           <div class="form-group">
             <label for="signin-email">Email</label>
             <input type="email" id="signin-email" name="email" placeholder="you@example.com" required>
